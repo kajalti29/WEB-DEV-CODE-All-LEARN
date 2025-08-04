@@ -1,0 +1,4 @@
+.box translate{
+    background-color: aqua;
+    transform: translate(10px,20px);
+}

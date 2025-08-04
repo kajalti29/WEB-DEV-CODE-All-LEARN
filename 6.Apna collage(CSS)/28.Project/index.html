@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+body {
+  background-color: #e3e6e6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+
+.nav-logo img {
+  height: 40px;
+}
+
+.nav-search {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.nav-search input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.nav-search button {
+  padding: 8px 12px;
+  background-color: #febd69;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* Hero */
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.product-box {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-box img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Amazon+Ember&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-logo">
+      <img src="amazon-logo.png" alt="Amazon Logo">
+    </div>
+    <div class="nav-search">
+      <input type="text" placeholder="Search Amazon">
+      <button>🔍</button>
+    </div>
+    <div class="nav-links">
+      <a href="#">Sign In</a>
+      <a href="#">Returns & Orders</a>
+      <a href="#">Cart 🛒</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg" alt="Hero Banner">
+  </section>
+
+  <!-- Products Section -->
+  <section class="product-grid">
+    <div class="product-box">
+      <h3>Electronics</h3>
+      <img src="https://via.placeholder.com/150" alt="Electronics">
+      <p>Shop now</p>
+    </div>
+    <div class="product-box">
+      <h3>Fashion</h3>
+      <img src="https://via.placeholder.com/150" alt="Fashion">
+      <p>Explore more</p>
+    </div>
+    <div class="product-box">
+      <h3>Home Appliances</h3>
+      <img src="https://via.placeholder.com/150" alt="Appliances">
+      <p>Discover deals</p>
+    </div>
+    <div class="product-box">
+      <h3>Mobiles</h3>
+      <img src="https://via.placeholder.com/150" alt="Mobiles">
+      <p>Latest phones</p>
+    </div>
+  </section>
+
+</body>
+</html>

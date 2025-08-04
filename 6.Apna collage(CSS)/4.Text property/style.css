@@ -1,0 +1,20 @@
+#headingone{
+    font-weight: normal;
+}
+#headingtwo{
+    font-weight: bold;
+}
+#headingthree{
+    font-weight: lighter;
+}
+#headingfive{
+    font-weight: 900;
+}
+
+#one{
+    font-family: arial;
+}
+#two{
+    font-family:'Segoe UI';
+}
+

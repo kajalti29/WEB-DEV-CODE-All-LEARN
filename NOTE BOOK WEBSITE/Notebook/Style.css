@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    background-image: url('./imgaes/img1.jpeg');
+    background-size: cover;
+    /* Make the background cover the whole page */
+    background-position: center;
+    /* Position the image in the center */
+    background-repeat: no-repeat;
+}
+
+.page {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVIst5W9m0euodvYcRJpf_Jm8a-WltxwQLpQ&s);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pag {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPBq52q2G0Z03J85HOvQYMOtDGhAI2MDSPQ&s);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pge {
+    background-image: url(./imgaes/img1.jpeg);
+    padding: 20px;
+    border-radius: 5px;
+    width: 650px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sge {
+    background-image: url(https://notebookstore.in/);
+    padding: 20px;
+    border-radius: 5px;
+    width: 650px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 350px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

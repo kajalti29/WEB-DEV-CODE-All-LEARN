@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border: 3px solid black;
+    position: relative;
+    animation-name: colorAnimate;
+    animation-duration: 0.25s;/*discolight*/
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+@keyframes colorAnimate{
+    from{background-color: aqua;}
+    to{background-color: red;}
+}

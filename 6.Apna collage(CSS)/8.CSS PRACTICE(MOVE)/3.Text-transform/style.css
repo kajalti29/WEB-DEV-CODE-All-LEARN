@@ -1,0 +1,15 @@
+p{
+    text-transform: lowercase;
+    color: rgb(63, 148, 30);
+}
+div{
+    text-transform: uppercase;
+    color: brown;
+}
+h6{
+    text-transform:capitalize;
+}
+/*text-transform: none;
+text-transform: capitalize; */   /* First letter of each word */
+/*text-transform: uppercase;
+text-transform: lowercase;*/

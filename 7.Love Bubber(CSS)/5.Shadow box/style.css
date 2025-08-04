@@ -1,0 +1,10 @@
+div {
+      border: 2px solid black;
+      width: 200px;
+      height: 200px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: teal;
+      color: white;
+      box-shadow: 10px 10px 10px rgba(255, 255, 0, 0.7); /* ✅ yellow shadow */
+    }

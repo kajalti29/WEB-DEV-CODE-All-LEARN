@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      line-height: 150px;
+      margin: 20px;
+      transition: 0.5s; /* Smooth effect */
+    }
+
+    .translate {
+      transform: translate(50px, 30px);
+    }
+
+    .rotate {
+      transform: rotate(30deg);
+    }
+    .rotate:hover{
+        background-color: aqua;
+    }
+
+    .scale {
+      transform: scale(1.2, 1.2);
+    }
+
+    .skew {
+      transform: skew(20deg, 10deg);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>2D Transform Examples</h2>
+
+  <div class="box translate">Translate</div>
+  <div class="box rotate">Rotate</div>
+  <div class="box scale">Scale</div>
+  <div class="box skew">Skew</div>
+
+</body>
+</html>

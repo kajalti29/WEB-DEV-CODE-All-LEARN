@@ -1,0 +1,22 @@
+*{
+    color: blue;
+}
+
+/*univarsal  selacter means apply styles to all elements on a webpage.*/
+#heading1{
+    color: chartreuse;
+}
+#heading2{
+    color: crimson;
+}
+#heading3{
+    color: darkgoldenrod;
+}
+#heading4{
+    color:green;
+}
+
+.myclass{
+    color:orangered;
+}
+

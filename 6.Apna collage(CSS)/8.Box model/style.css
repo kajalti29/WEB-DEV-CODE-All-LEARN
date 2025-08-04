@@ -1,0 +1,21 @@
+div{
+   height: 100px;
+   width: 100px;
+   background-color: lightcoral;
+   border-width: 5px;
+   /*border-style: dotted;*/
+   /*border-style: solid;
+   border-color: black;*/
+   border:5px solid brown;
+   text-align: center;
+}
+h1{
+    height:50px;
+    width:200px;
+    background-color: aqua;
+    /*border-width: 3px;
+    border-style: dashed;
+    border-color: black;*/
+    border:3px solid black;
+    text-align: center;
+}

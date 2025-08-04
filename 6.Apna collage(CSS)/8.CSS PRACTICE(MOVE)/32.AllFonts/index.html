@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font Properties Example</title>
+  <style>
+    .text-style {
+      font-family: 'Arial', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.5;
+      letter-spacing: 2px;
+    }
+
+    .shorthand-style {
+      font: italic bold 18px 'Georgia', serif;
+    }
+  </style>
+</head>
+<body>
+  <h2 class="text-style">This is styled using individual font properties</h2>
+  <p class="shorthand-style">This uses the shorthand `font` property</p>
+</body>
+<hr>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>z-index Example</title>
+  <style>
+    .box1 {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+    }
+
+    .box2 {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="box1">Red Box (z-index: 1)</div>
+  <div class="box2">Blue Box (z-index: 2)</div>
+<hr>
+</body>
+</html>
+
+

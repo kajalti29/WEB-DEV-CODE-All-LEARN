@@ -1,0 +1,19 @@
+/* ID selector starts with # */
+#heading {
+  color: blue;
+  background-color: yellow;
+}
+  p
+#box{
+    color: lightseagreen;
+}
+
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}

@@ -1,0 +1,8 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;/* means Takes only the space required by the element(no margin/padding).*/
+    display: inline-block;/* means similar to inline but we can set margin & padding*/
+}

@@ -1,0 +1,6 @@
+p{
+text-overflow: ellipsis; 
+}  /* Adds "..." */
+div{
+text-overflow: clip;       /* Cuts off text */
+}

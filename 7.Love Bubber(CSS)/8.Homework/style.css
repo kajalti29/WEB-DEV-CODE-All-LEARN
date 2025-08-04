@@ -1,0 +1,33 @@
+.box{
+  position:absolute;
+  border:2px solid black;
+  height: 300px;
+  width:300px;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ background-color: aqua;  
+}
+.top-left{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.top-right{
+  position: absolute;
+  top:0;
+  right:0;
+}
+.bottom-left{
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+.bottom-right{
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+.Center{
+  font-size: bold;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Notebook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        header {
+            background-color: #3399ff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        header h1 {
+            color: white;
+            font-size: 24px;
+        }
+        
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #e0f0ff;
+        }
+        
+        section {
+            padding: 80px 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        .hero {
+            background: linear-gradient(to right, #cceeff, #e6f7ff);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        .hero a {
+            text-decoration: none;
+            padding: 12px 25px;
+            background-color: #3399ff;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .hero a:hover {
+            background-color: #267acc;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav {
+                margin-top: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Notebook</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#notebook">Notebook</a>
+            <a href="index.html">login/register</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Notebook</h2>
+        <p>Your personal space to write, save, and organize thoughts, using of online Notebook Platform.</p>
+        <a href="notebook.html">Go to Previous Page</a>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>The Notebook app helps users store and manage notes directly in their browser. It's simple, fast. All data is saved locally, so your thoughts stay private and accessible only on your device.This Platform we can also use to store sum personal information
+            using of login page .If you can store a information for temproary use then go to previous page using previous button and open notepad paltform and store data for temproary used.</p>
+    </section>
+
+    <section id="notebook">
+        <h2>Notebook </h2>
+        <p>A "notebook store" can refer to either a physical store that sells notebooks and related stationery items, or a digital platform that offers notebooks and related services, such as Notebook Store. </p>
+        <a href="#notebook" style="display:inline-block; margin-top: 20px; padding: 12px 20px; background:#3399ff; color:white; border-radius:20px; text-decoration:none;">Notebook</a>
+    </section>
+    <section id="login">
+        <h2>Login</h2>
+        <p>A login page allows existing users to access their accounts by entering their credentials (usually a username/email and password), while a registration page enables new users to create an account by providing necessary information like username,
+            email, and password. </p> <a href="index.html" style="display:inline-block; margin-top: 20px; padding: 12px 20px; background:#3399ff; color:white; border-radius:20px; text-decoration:none;">Go to login Login-Page</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have feedback or questions? Feel free to reach out via email: <br><strong>notebookapp@example.com</strong></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Notebook App. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

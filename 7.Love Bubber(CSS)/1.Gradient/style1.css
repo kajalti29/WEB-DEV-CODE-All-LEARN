@@ -1,0 +1,12 @@
+.mydiv{
+    border: 2px solid black;
+    height: 300px;
+    width:300px;
+    background-image: radial-gradient(yellow 5%,orange 10%,red 50%);
+}
+.mydiv1{
+    border:1px;
+    height:300px;
+    width:300px;
+    background-image: linear-gradient(orange,white,green);
+}

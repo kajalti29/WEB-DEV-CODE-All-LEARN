@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 20px;
+            text-align: center;
+            background-repeat: repeat;
+        }
+        h1{
+            color: black;
+        }
+        div{
+            color: black;
+            font-size: 20px;
+        }
+        form{
+            box-shadow: 1px 1px 1px rosybrown;
+            padding: 20px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/action">
+        <div>
+       First Name:<input type="text"placeholder="First Name"/><br><br>
+        Last Name:<input type="text"placeholder="Last Name"/><br><br>
+    </div>
+
+    <div>
+        <label for="gender">Please select gender</label>
+        <select name="gender" id="gender">
+            <option value="C">Choose</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Other</option>
+        </select><br><br>
+    </div>
+
+    <div>
+        Do you agree to all terms of servise?
+        <input type="checkbox" id="tos_agree" name="tos_agree"/>
+        <label for="tos_agree">Yes.I agree</label><br><br>
+    </div>
+    <button>Register</button>
+    </form>
+</body>
+</html>

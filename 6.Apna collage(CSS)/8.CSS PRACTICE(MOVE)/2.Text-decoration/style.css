@@ -1,0 +1,11 @@
+p{
+    text-decoration: underline;
+}
+div{
+    text-decoration: overline;
+}
+
+/*text-decoration: none;*/       /* Removes underlines (e.g., from links) */
+/*text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;*/

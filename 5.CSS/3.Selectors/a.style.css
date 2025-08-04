@@ -1,0 +1,12 @@
+#para1{
+    color: chocolate;
+    text-align: center;
+}
+
+/*apply without id */
+p{
+    color: blue;
+    text-align: center;
+
+
+}

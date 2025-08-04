@@ -1,0 +1,11 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    border:2px solid black
+}
+@media(width:500px){
+    div{
+        background-color: blue;
+    }
+}
